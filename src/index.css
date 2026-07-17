@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root { font-family: Inter, system-ui, sans-serif; color: #2b302c; background: #faf8f2; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font-family: inherit; }
+.main-content { width: min(1180px, 92%); min-height: calc(100vh - 76px); margin: auto; padding: 2.5rem 0 4rem; }
+.page-heading { margin-bottom: 2rem; text-align: center; text-transform: capitalize; }
+.page-heading h1 { margin: .3rem 0; font-family: Georgia, serif; font-size: clamp(2rem, 5vw, 3rem); color: #304d37; }
+.eyebrow { margin: 0; color: #9a6b34; font-size: .78rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.button { display: inline-flex; justify-content: center; align-items: center; width: fit-content; min-height: 2.7rem; padding: .65rem 1.1rem; border: 1px solid #3e6047; border-radius: 8px; color: #fff; background: #3e6047; font-size: .92rem; font-weight: 600; text-decoration: none; cursor: pointer; transition: background .2s; }
+.button:hover { background: #304d37; }.button:disabled { cursor: not-allowed; opacity: .55; }
+.button-secondary { color: #3e6047; background: transparent; }.button-secondary:hover { color: #fff; }
+.button-light { color: #3e6047; border-color: #d8d0be; background: #fff; }.button-light:hover { color: #fff; }
+.message, .status-card { margin: 2rem auto; padding: 2rem; border-radius: 12px; background: #fff; text-align: center; }.message.error { color: #8b352e; background: #fff0ed; }
+@media (max-width: 600px) { .main-content { width: 94%; padding-top: 1.5rem; } }

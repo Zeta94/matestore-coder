@@ -1,0 +1,5 @@
+.item-count { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1rem; }
+.counter { display: flex; align-items: center; overflow: hidden; border: 1px solid #c8c0ad; border-radius: 8px; }
+.counter button { width: 2.6rem; height: 100%; border: 0; background: #f0ece2; font-size: 1.2rem; cursor: pointer; }
+.counter button:disabled { cursor: not-allowed; opacity: .4; }
+.counter span { min-width: 2.5rem; text-align: center; font-weight: 700; }

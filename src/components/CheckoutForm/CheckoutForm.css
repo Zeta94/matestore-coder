@@ -1,0 +1,10 @@
+.checkout-page { max-width: 650px; margin: auto; }
+.checkout-form { display: grid; gap: 1rem; padding: clamp(1.3rem, 4vw, 2.5rem); border: 1px solid #e2dccd; border-radius: 16px; background: #fff; }
+.checkout-form label { display: grid; gap: .4rem; font-weight: 600; }
+.checkout-form input { padding: .8rem .9rem; border: 1px solid #bdb6a5; border-radius: 8px; font: inherit; }
+.checkout-form input:focus { outline: 2px solid #8ca989; border-color: transparent; }
+.checkout-form small, .form-error { margin: 0; color: #a03831; font-weight: 400; }
+.checkout-total { display: flex; justify-content: space-between; padding: 1rem 0; border-top: 1px solid #ddd5c5; font-size: 1.15rem; }
+.success-card { display: grid; justify-items: center; gap: 1rem; max-width: 600px; margin: 4rem auto; padding: 3rem; border: 1px solid #cbdcc8; border-radius: 16px; background: #fff; text-align: center; }
+.success-card > span { display: grid; place-items: center; width: 4rem; height: 4rem; border-radius: 50%; color: #fff; background: #52725a; font-size: 2rem; }
+.success-card h1, .success-card p { margin: 0; }.success-card strong { padding: .7rem 1rem; border-radius: 6px; background: #f0ece2; word-break: break-all; }

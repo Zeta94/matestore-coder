@@ -1,0 +1,8 @@
+.detail-card { display: grid; grid-template-columns: minmax(280px, 1fr) 1fr; overflow: hidden; max-width: 950px; margin: 2rem auto; border: 1px solid #e2dccd; border-radius: 18px; background: #fff; }
+.detail-card > img { width: 100%; height: 100%; min-height: 460px; object-fit: cover; background: #eee9dd; }
+.detail-content { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(1.5rem, 4vw, 3.5rem); }
+.detail-content h1 { margin: .7rem 0; font-size: clamp(1.8rem, 4vw, 2.7rem); }
+.detail-content > p { color: #58605a; line-height: 1.65; }
+.detail-content .detail-price { margin-bottom: .4rem; color: #75552e; font-size: 1.8rem; font-weight: 700; }
+.detail-content .stock { margin-top: 0; font-size: .9rem; }
+@media (max-width: 700px) { .detail-card { grid-template-columns: 1fr; } .detail-card > img { min-height: 280px; max-height: 360px; } }
